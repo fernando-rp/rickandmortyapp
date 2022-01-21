@@ -37,11 +37,6 @@ import { ApolloClient, InMemoryCache, ApolloProvider, useQuery, gql
               </form>
 
               {data.characters.results.filter(character => character.name.toLowerCase().includes(searchCharacter.toLowerCase())
-
-                  //         (val)=>{
-                  // if(val.name.toLowerCase().includes(searchCharacter.toLowerCase())){
-                  //     return <p>que pasa</p>
-                  // }
               ).map(character => {
                   return (
                       <div className="col-xl-4 col-log-4 col-md-6 mt-2 b-4">

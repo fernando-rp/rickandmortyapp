@@ -6,7 +6,6 @@ const Navbar = ()=>{
     return(
         <header className="mb-auto">
             <div>
-                {/* <h3 className="float-md-start mb-0">Rick and Morty</h3> */}
                 <img src={logo} className="logo image float-md-start mb-0" alt="logo"/>
                 <nav className="nav nav-masthead justify-content-center float-md-end">
                     <a className="nav-link active" aria-current="page" href="/">Home</a>
