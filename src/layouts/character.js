@@ -66,7 +66,7 @@ const Character=()=>{
             <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
              <Navbar />     
                 <div className="row w-100 mt-4 mb-4 mx-auto">
-                    <h3 className="title">Search your favorite character:</h3>
+                    <h3 className="title mb-4">Search your favorite character:</h3>
                     
                     <ApolloProvider client={client}>
                         <GetCharacters></GetCharacters>
